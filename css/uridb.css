@@ -53,6 +53,7 @@
 }
 
 .jumbotron .container{
+	max-width: 100%;
 	position:relative;
 	z-index:2
 }
