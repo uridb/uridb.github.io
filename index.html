@@ -6,7 +6,7 @@
     <title>汇聚头条</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
 	<link rel="stylesheet" href="css/uridb.css">
 
@@ -29,36 +29,40 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
+		     <li>
+              <a href="../Java/">Java</a>
+            </li>
+			<li>
+              <a href="../Java/">Dotnet</a>
+            </li>
+			<li>
+              <a href="../Java/">Android</a>
+            </li>
+			<li>
+              <a href="../Java/">iOS</a>
+            </li>
+			<li>
+              <a href="../arch/">架构</a>
+            </li>
+			<li>
+              <a href="../bigdata/">大数据</a>
+            </li>
+			<li>
+              <a href="../bigdata/">运维</a>
+            </li>
+			<li>
+              <a href="../frontend/">前端</a>
+            </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">分类 <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="themes">
-                <li><a href="../default/">Default</a></li>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="others">其它 <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="others">
+                <li><a href="../awesome/">Awesome</a></li>
                 <li class="divider"></li>
-                <li><a href="../cerulean/">Cerulean</a></li>
-                <li><a href="../cosmo/">Cosmo</a></li>
-                <li><a href="../cyborg/">Cyborg</a></li>
-                <li><a href="../darkly/">Darkly</a></li>
-                <li><a href="../flatly/">Flatly</a></li>
-                <li><a href="../journal/">Journal</a></li>
-                <li><a href="../lumen/">Lumen</a></li>
-                <li><a href="../paper/">Paper</a></li>
-                <li><a href="../readable/">Readable</a></li>
-                <li><a href="../sandstone/">Sandstone</a></li>
-                <li><a href="../simplex/">Simplex</a></li>
-                <li><a href="../slate/">Slate</a></li>
-                <li><a href="../spacelab/">Spacelab</a></li>
-                <li><a href="../superhero/">Superhero</a></li>
-                <li><a href="../united/">United</a></li>
-                <li><a href="../yeti/">Yeti</a></li>
+                <li><a href="../python/">python</a></li>
+                <li><a href="../nodejs/">node.js</a></li>
+				<li><a href="../database/">数据库</a></li>
               </ul>
             </li>
-            <li>
-              <a href="../help/">Help</a>
-            </li>
-            <li>
-              <a href="http://news.bootswatch.com">Blog</a>
-            </li>
-            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">United <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="download">
                 <li><a href="http://jsfiddle.net/bootswatch/cvLkpsx0/">Open Sandbox</a></li>
@@ -75,67 +79,92 @@
             </li>
           </ul>
 
+		  <!--
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/" target="_blank">登录</a></li>
 			<li><a href="/" target="_blank">投稿</a></li>
             <li><a href="/" target="_blank">注册</a></li>
           </ul>
+		  -->
         </div>
       </div>
     </div>
 	<div class="jumbotron masterhead">
 		  <div class="container">
-			<h1>Bootstrap</h1>
-			<h2>简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</h2>
+			<h1>uriDB</h1>
+			<h2>汇聚最有价值的文章。</h2>
 			<p class="masthead-button-links">
 			  <a class="btn btn-lg btn-primary btn-shadow" href="http://v3.bootcss.com/" target="_blank" role="button" onclick="_hmt.push(['_trackEvent', 'masthead', 'click', 'masthead-Bootstrap3中文文档'])">Bootstrap3中文文档(v3.3.5)</a>
 			</p>
 		  </div>
 		</div>
 		
-    <div class="container">
-      <!-- Navbar
-      ================================================== -->
-      <div class="bs-docs-section clearfix">
+	<!-- Posts  ================================================== -->
+    <div class="container posts-container">
+      <div class="posts-section clearfix">
         <div class="row">
           <div class="col-lg-12">
-            <div class="page-header">
-              <h1 id="navbar">Navbar</h1>
-            </div>
+            <h3 class="date"><i class="fa fa-calendar"></i> 2015/08/31</h1>
+			<div class="list-group posts">
+				<div class="list-group-item post">
+					<div class="btn-group-vertical upvote">
+					<a title="点赞" class="btn btn-default" title="" href="/like"><i class="fa fa-thumbs-o-up"></i> <span>7</span></a>
+					<a title="收藏" class="btn btn-default" title="" href="/favorite"><i class="fa fa-bookmark-o"></i> <span>13</span></a>
+				  </div>
+					 <div class="post-info" data-url="http://toutiao.io/posts/qz21c">
+						<h3 class="title">
+						  <a target="_blank" href="http://toutiao.io/r/qz21c">苹果团队 App 开发流程</a>						  
+						</h3>
+						<p class="description"><a href="/posts/qz21c">Fake it till you make it</a></p>
+						<div class="meta">
+						  atleeon.com
+						  <span>
+							  <i class="fa fa-comment-o"></i> 0
+						  </span>
+						</div>
+					  </div>
+					<div class="post-img-info">
+						<img class="post-img" src="images/logos/microsoft.png" >
+					</div>
+				 </div>
+				<div class=" list-group-item post">
+				  <div class="btn-group-vertical upvote">
+					<a title="点赞" class="btn btn-default" title="" href="/like"><i class="fa fa-thumbs-o-up"></i> <span>7</span></a>
+					<a title="收藏" class="btn btn-default" title="" href="/favorite"><i class="fa fa-bookmark-o"></i> <span>13</span></a>
+				  </div>
 
-			
 
+				  <div class="post-info" data-url="http://toutiao.io/posts/d6jjpe">
+					<h3 class="title">
+					  <a target="_blank" href="http://toutiao.io/r/d6jjpe">Dropbox 工程师开发出无损压缩算法 “Pied Piper”</a>
+					  
+					</h3>
+
+					<p class="description"><a href="/posts/d6jjpe">GitHub 地址：http://toutiao.io/s/xnpf</a></p>
+					<div class="meta">
+					  solidot.org.feedsportal.com&nbsp;
+
+						by WinterIsComing
+
+				&nbsp;
+
+					  <span>
+						  <i class="fa fa-comment-o"></i> 0
+					  </span>
+
+					</div>
+				  </div>
+
+				  <div class="post-img-info">
+						<img class="post-img" src="images/logos/microsoft.png" >
+					</div>
+  
+</div>
+</div>
+			</div>
           </div>
         </div>
       </div>
-
-
-      <!-- Buttons
-      ================================================== -->
-      <div class="bs-docs-section">
-        <div class="page-header">
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 id="buttons">Buttons</h1>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-7">
-			left
-
-			left
-			left
-			left
-          </div>
-          <div class="col-lg-5">
-			right
-          </div>
-        </div>
-      </div>
-
-
     </div>
 
 	<footer  class="footer">
