@@ -1,6 +1,6 @@
 .navbar-brand  {
 	padding-left: 0px;
-	padding-top: 30px;
+	padding-top: 24px;
 	font-size: 64px;
 	font-weight: bold;
 	font-family: Arial,sans-serif;
@@ -108,6 +108,7 @@
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 1px dashed #DDD;
+	padding-bottom: 5px;
 	margin-bottom: 10px;
 }
 
@@ -119,14 +120,13 @@
     position: absolute;
     left: 5px;
     top: 12px;
-	bottom: 12px;
 	border-right: thick solid gold;
 }
 
 .list-group-item.post .post-info {
     min-height: 85px;
     margin: 0px 10px 0px;
-    padding: 0px 55px 10px;
+    padding: 0px 55px 0px;
 }
 
 .post .upvote a {
