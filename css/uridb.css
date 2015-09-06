@@ -1,3 +1,12 @@
+.navbar-brand  {
+	padding-left: 0px;
+	padding-top: 30px;
+	font-size: 64px;
+	font-weight: bold;
+	font-family: Arial,sans-serif;
+	text-shadow: 0px 1px 0px #CCC, 0px 2px 0px #C9C9C9, 0px 3px 0px #BBB, 0px 4px 0px #B9B9B9, 0px 5px 0px #AAA, 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
 .container {
     font-family: "Microsoft YaHei","Droid Sans",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -7,7 +16,6 @@
 	border: 0;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 
 .masterhead{
 	padding: 90px 0px 110px;
@@ -111,6 +119,8 @@
     position: absolute;
     left: 5px;
     top: 12px;
+	bottom: 12px;
+	border-right: thick solid gold;
 }
 
 .list-group-item.post .post-info {
@@ -121,10 +131,15 @@
 
 .post .upvote a {
     width: 54px;
-    font-size: 14px;
+    font-size: 12px;
 	color: #4C5A62;
+	border: 0;
 	background-color: #FFF;
     border-color: #ECECEC;
+}
+.post .upvote i{
+    font-size: 20px;
+	padding-bottom: 6px;
 }
 
  .post-info .title {
