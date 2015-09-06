@@ -20,8 +20,10 @@
 		postsAPI="example.json"
 		$.ajaxSetup({ scriptCharset: "utf-8" , contentType: "application/json; charset=utf-8"});
 		$.getJSON( postsAPI, function( data ) {
-			$( "#all-posts" ).append('<h3 class="date"><i class="fa fa-calendar"></i> ' + post_date.format("yyyy-MM-dd") + '</h3>')
-			$( "#all-posts" ).append('<div class="list-group posts" id="posts-' + post_date.format("yyyyMMdd") + '"></div>')
+
+			if  (!(data == null || data.posts == null || data.posts.length ==0)){
+				$( "#all-posts" ).append('<h3 class="date"><i class="fa fa-calendar"></i> ' + post_date.format("yyyy-MM-dd") + '</h3>')
+				$( "#all-posts" ).append('<div class="list-group posts" id="posts-' + post_date.format("yyyyMMdd") + '"></div>')
 		
 			  $.each( data.posts, function( i, post ) {
 				$( "#posts-" + post_date.format("yyyyMMdd") ).append( '<div class="list-group-item post">\
@@ -38,8 +40,9 @@
 			  });
 			  
 			  post_date.setDate(post_date.getDate()-1);
+			}
 			})  .fail(function( jqXHR, textStatus, errorThrown) {
-				alert( errorThrown);
+				alert("没有更多的文章");
 			  });
 	}
 		
