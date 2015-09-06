@@ -17,7 +17,7 @@
 
 	function load_more_posts(post_type, post_date) {
 		var postsAPI = "/posts?type=" + post_type + "&date=" + post_date.getTime();
-		postsAPI="example.json"
+		postsAPI="/example.json"
 		$.ajaxSetup({ scriptCharset: "utf-8" , contentType: "application/json; charset=utf-8"});
 		$.getJSON( postsAPI, function( data ) {
 
