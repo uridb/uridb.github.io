@@ -1,0 +1,17 @@
+{
+	"posts": [{
+		"title": "测试1",
+		"url": "http://colobu.com/posts/abcdef",
+		"meta": "colobu.com",
+		"postDate": "一分钟前",
+		"likethis": 12,
+		"img": "microsoft.png"
+	},
+	{
+		"title": "测试2",
+		"url": "http://colobu.com/posts/abcdef",
+		"meta": "uridb.com",
+		"postDate": "两小时前",
+		"likethis": 10
+	}]
+}
