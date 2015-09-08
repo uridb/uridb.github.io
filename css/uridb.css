@@ -1,3 +1,18 @@
+a,input,button{ 
+    outline: none !important; 
+    -webkit-appearance: none; 
+    border-radius: 0; 
+} 
+ 
+button::-moz-focus-inner,input::-moz-focus-inner{ 
+    border-color:transparent !important; 
+} 
+ 
+:focus { 
+    border: none; 
+    outline: 0; 
+}
+
 .navbar-brand  {
 	padding-left: 0px;
 	padding-top: 24px;
