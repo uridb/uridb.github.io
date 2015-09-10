@@ -1,18 +1,3 @@
-a,input,button{ 
-    outline: none !important; 
-    -webkit-appearance: none; 
-    border-radius: 0; 
-} 
- 
-button::-moz-focus-inner,input::-moz-focus-inner{ 
-    border-color:transparent !important; 
-} 
- 
-:focus { 
-    border: none; 
-    outline: 0; 
-}
-
 .navbar-brand  {
 	padding-left: 0px;
 	padding-top: 24px;
@@ -96,13 +81,15 @@ button::-moz-focus-inner,input::-moz-focus-inner{
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1){
 	.jumbotron:after{
-		background-size:150px 150px
+		background-size:150px 150px;
 	}
 
 }
 
-.posts-container and (min-width: 800px) {
-	width: 800px;
+@media screen and (min-width: 800px) {
+	.posts-container {
+		width: 800px;
+	}
 }
 
 .list-group.posts {
@@ -190,3 +177,17 @@ button::-moz-focus-inner,input::-moz-focus-inner{
     vertical-align: baseline;
 }
 
+a,input,button{ 
+    outline: none !important; 
+    -webkit-appearance: none; 
+    border-radius: 0; 
+} 
+ 
+button::-moz-focus-inner,input::-moz-focus-inner{ 
+    border-color:transparent !important; 
+} 
+ 
+:focus { 
+    border: none; 
+    outline: 0; 
+}
